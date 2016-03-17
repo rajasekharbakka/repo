@@ -1,0 +1,117 @@
+/* All CSS files regarding Quiz Application */
+/* Sandhya */
+.navbar.navbar-default {
+    background-color: 
+ #595959;
+   
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+   font-size:15px;
+}
+.nav.navbar-nav.navbar-right ul li a {
+    color: #000;
+}
+.nav.navbar-nav li a{
+	color: #fff;
+    font-size:15px;
+}
+.footer{
+position: relative;
+  margin-top: 200px; /* negative value of footer height */
+  height: 80px;
+  clear:both;
+  padding:20px;
+  
+}
+.footer p{
+	text-align:center;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+/* Ramkrushnamma */
+body
+{
+	background-color:#fff;
+    font-family: 'Open Sans', sans-serif;
+  
+    
+}
+h3
+{
+    text-align:center;
+}
+.card
+{
+    position: relative;
+    box-shadow: 5px 5px 2px -1px #52616D;
+    border-radius: 2px;
+    background-color:#E5E1D1;
+    text-align: center;
+    width: 250px;
+    margin: 20px 0px 50px 0px;
+    padding: 0;
+}
+.pic {
+    position: relative;
+    margin: 0px auto;
+    padding: 20px;
+}
+.img-circle {
+    box-shadow: -2px 1px 1px 1px #2C343B;
+}
+.txt {
+    position: relative;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+
+/* Pavan */
+
+h4{
+    color:#E5E1D1;
+}
+#aboutText{
+    text-align:center;    
+}
+#aboutName{
+    font-size:20px;
+}
+div img{
+    height:175px;
+    width:175px;
+    border:1px solid green;
+    align:center;
+}
+/* Rajasekhar */
+.question {
+	background-color:darkgrey;
+	
+	
+	padding-top:50px;
+}
+.two{
+	background-color:;
+	padding-top:50px;
+}
+input[type="submit"]{
+    width:260px; 
+    height:70px;
+    margin-left:60px;
+    font-size:20px;
+  
+}
+tr{
+    line-height:20px;
+}
+#main{
+    position:relative;
+}
+#result{
+    align:center;
+    margin-top:260px;
+}
+

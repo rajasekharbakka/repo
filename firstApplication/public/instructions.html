@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>Instructions page
+         </title>
+         
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/q.js"></script>
+         <link rel="stylesheet" href="css/quiz.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!--a class="navbar-brand" href="#"-->
+        <a href="/">
+	  <img src="images/30-128.png" alt="image" id="logo" >
+        </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/main">Home</a></li>
+	  <li class="active"><a href="Topics.html">Topics</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+	  </ul>
+	  <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">View Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="index.html">logout</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div> 
+</nav>
+        <div class="container" style="font-size:20px;margin-top:80px">
+
+         <dl id="inst">
+  <dt>Instructions:</dt><br>
+             <dd>- Test containing 5 questions.</dd>  
+             <dd>- Choose the correct answer.</dd>
+             <dd>- Then it moves to next question automatically.</dd>            
+             <dd>- Every correct question having 20 points.</dd>
+             <dd>- Maximum score for this test is 100 marks.</dd>
+             <dd>- After completion of test it will display the results.</dd>
+            <dd>- How many correct answers and wrong answers also displayed.</dd>
+             <dd>- No negative marking.</dd>
+             
+             
+</dl>
+
+        <input type="button" onclick="fun()" value="continue" style="margin-left:500px;" class="btn btn-primary btn-lg">
+      
+
+        
+    <script>
+
+        function fun()
+        {
+            
+            window.location.href="/q";
+        }
+        
+        
+        </script>
+    </body>
+</html>
